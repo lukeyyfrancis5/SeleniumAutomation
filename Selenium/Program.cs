@@ -32,11 +32,6 @@ namespace Selenium
         [Test]
         public void ExecuteTest()
         {
-
-            // Enter Text(element, value, type)
-
-
-
             // Find the Element
             IWebElement element = driver.FindElement(By.Name("q"));
 
